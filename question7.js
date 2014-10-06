@@ -1,4 +1,6 @@
-nodeschool - http-client problem: var http = require("http");
+nodeschool - http-client problem:
+
+var http = require("http");
 
 http.get(process.argv[2], function(res) {
  // console.log("Got response: " + res.statusCode);
